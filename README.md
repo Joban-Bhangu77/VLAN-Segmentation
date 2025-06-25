@@ -49,6 +49,7 @@ A **VLAN (Virtual Local Area Network)** is a method of logically segmenting a ne
 
 ---
 
+
 ## 🏗️ Project Topology
 
 PC1 (HR) PC2 (IT) PC3 (SALES)
@@ -58,6 +59,8 @@ Switch S1 ---------------- Switch S2
 PC4 (HR) PC5 (IT) PC6 (SALES)
 |
 Router (R1)
+
+![image](https://github.com/user-attachments/assets/24535a5b-4edb-4677-ac66-603a4ded4365)
 
 
 
