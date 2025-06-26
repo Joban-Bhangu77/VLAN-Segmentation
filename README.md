@@ -214,18 +214,16 @@ This project demonstrates how to implement **VLAN Segmentation** and **Inter-VLA
 ## 🔧 Configuration Steps
 
 ### 1. **Create VLANs on Switch**
-
-```bash
 vlan 10
 name HR
+
 vlan 20
 name Finance
+
 vlan 30
 name IT
+
 2. Assign Switch Ports to VLANs
-bash
-Copy
-Edit
 interface range fa0/1 - 2
 switchport mode access
 switchport access vlan 10
@@ -237,17 +235,13 @@ switchport access vlan 20
 interface range fa0/5 - 6
 switchport mode access
 switchport access vlan 30
+
 3. Configure Trunk Port (Switch → Router)
-bash
-Copy
-Edit
 interface fa0/24
 switchport trunk encapsulation dot1q
 switchport mode trunk
+
 4. Configure Router Sub-Interfaces
-bash
-Copy
-Edit
 interface g0/0.10
 encapsulation dot1q 10
 ip address 192.168.10.1 255.255.255.0
