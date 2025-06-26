@@ -271,11 +271,11 @@ VLAN Full Topology File including configuration
 ![image](https://github.com/user-attachments/assets/6bcbcb1e-f398-4b79-8216-b34564f355c6)
 ![image](https://github.com/user-attachments/assets/be4718e6-4919-4b93-a4de-cc4916216205)
 
-🖼️ ping_test.png – Successful ping between VLANs
+🖼️  Successful ping between VLANs
 Ping from VLAN 10 to VLAN 20 
 ![image](https://github.com/user-attachments/assets/5ab2a173-37d7-4b05-b0cb-7b6cf358af0c)
 
-Ping from VLAN 20 to VLAN 30
+🖼️ Successful Ping from VLAN 20 to VLAN 30
 ![image](https://github.com/user-attachments/assets/25ba86b7-d176-4142-9cbb-037bfd83ca66)
 
 
