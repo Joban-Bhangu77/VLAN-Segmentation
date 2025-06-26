@@ -90,9 +90,6 @@ exit
 ✅ Step 4: Configure Trunk Port for Router
 Assume Switch Port Fa0/24 → Router G0/0:
 
-bash
-Copy
-Edit
 interface fa0/24
 switchport trunk encapsulation dot1q
 switchport mode trunk
@@ -100,9 +97,6 @@ exit
 ✅ Step 5: Configure Router Sub-Interfaces
 Click Router > CLI:
 
-bash
-Copy
-Edit
 enable
 configure terminal
 interface g0/0.10
