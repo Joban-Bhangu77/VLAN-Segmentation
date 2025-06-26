@@ -267,18 +267,18 @@ Include the following screenshots in this repo:
 
 VLAN Full Topology File including configuration
 
-🖼️ topology.png – Complete Packet Tracer topology
+🖼️ – Complete Packet Tracer topology
 
 ![image](https://github.com/user-attachments/assets/78c5f59f-2cef-450a-967b-b797dc184a0d)
 
-🖼️ switch_vlan_config.png – VLAN configuration on switch
+🖼️ – VLAN configuration on switch
 
 ![image](https://github.com/user-attachments/assets/92202a75-bda1-4a91-90b2-47d1a7fe435d)
 ![image](https://github.com/user-attachments/assets/4c97de37-6e1e-4271-8aa2-57cfa270c072)
 ![image](https://github.com/user-attachments/assets/4543eee7-7441-4c33-ae3d-94aac817fe3e)
 
 
-🖼️ router_subinterfaces.png – Router sub-interface setup
+🖼️  – Router sub-interface setup
 
 ![image](https://github.com/user-attachments/assets/6bcbcb1e-f398-4b79-8216-b34564f355c6)
 ![image](https://github.com/user-attachments/assets/be4718e6-4919-4b93-a4de-cc4916216205)
