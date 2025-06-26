@@ -145,9 +145,6 @@ Gateway: 192.168.30.1
 ✅ Step 7: Save Configurations (Optional but Good Practice)
 On Switch & Router:
 
-bash
-Copy
-Edit
 copy running-config startup-config
 ✅ Step 8: Testing
 From PC1 (HR) try to ping PC3 (Finance) → Should work due to inter-VLAN routing.
@@ -156,20 +153,8 @@ Ping from PC5 (IT) to PC2 (HR) → Should work.
 
 Use ping command in Command Prompt on the PCs.
 
-📸 Screenshots for GitHub
-Take these screenshots:
 
-Topology diagram in Packet Tracer.
-
-Switch VLAN Configuration.
-
-Router Sub-Interface Configuration.
-
-IP Configuration of one PC from each VLAN.
-
-Successful Ping Tests.
-
-Here is your complete README.md for the VLAN Segmentation and Inter-VLAN Routing Project — ready to upload to GitHub:
+Here is my complete README.md for the VLAN Segmentation and Inter-VLAN Routing Project:
 
 # VLAN Segmentation and Inter-VLAN Routing Project
 
@@ -277,7 +262,10 @@ All devices can communicate across VLANs through the router's sub-interfaces.
 📸 Screenshots
 Include the following screenshots in this repo:
 
+VLAN Full Topology File including configuration
+
 🖼️ topology.png – Complete Packet Tracer topology
+![image](https://github.com/user-attachments/assets/78c5f59f-2cef-450a-967b-b797dc184a0d)
 
 🖼️ switch_vlan_config.png – VLAN configuration on switch
 ![image](https://github.com/user-attachments/assets/92202a75-bda1-4a91-90b2-47d1a7fe435d)
@@ -286,10 +274,15 @@ Include the following screenshots in this repo:
 
 
 🖼️ router_subinterfaces.png – Router sub-interface setup
-
-🖼️ pc_ip_settings.png – Example IP config on a PC
+![image](https://github.com/user-attachments/assets/6bcbcb1e-f398-4b79-8216-b34564f355c6)
+![image](https://github.com/user-attachments/assets/be4718e6-4919-4b93-a4de-cc4916216205)
 
 🖼️ ping_test.png – Successful ping between VLANs
+Ping from VLAN 10 to VLAN 20 
+![image](https://github.com/user-attachments/assets/5ab2a173-37d7-4b05-b0cb-7b6cf358af0c)
+
+Ping from VLAN 20 to VLAN 30
+![image](https://github.com/user-attachments/assets/25ba86b7-d176-4142-9cbb-037bfd83ca66)
 
 
 💡 Conclusion
