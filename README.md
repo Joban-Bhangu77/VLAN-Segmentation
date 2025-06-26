@@ -47,20 +47,20 @@ Connect Switch to Router’s G0/0 port using Copper Straight-Through.
 ✅ Step 2: Configure VLANs on the Switch
 Click on the Switch > CLI and enter:
 
-bash
-Copy
-Edit
 enable
 configure terminal
 vlan 10
 name HR
 exit
+
 vlan 20
 name Finance
 exit
+
 vlan 30
 name IT
 exit
+
 ✅ Step 3: Assign Ports to VLANs
 Let’s assume:
 
