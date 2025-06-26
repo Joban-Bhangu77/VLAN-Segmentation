@@ -37,7 +37,9 @@ VLAN 20 – Finance (PC3, PC4)
 VLAN 30 – IT (PC5, PC6)
 
 🛠️ Step-by-Step Configuration
+
 ✅ Step 1: Assign Devices in Packet Tracer
+
 Drag and drop 1 router (e.g., 2911), 1 switch (2960), and 6 PCs.
 
 Connect all 6 PCs to the switch using Copper Straight-Through cables.
@@ -45,6 +47,7 @@ Connect all 6 PCs to the switch using Copper Straight-Through cables.
 Connect Switch to Router’s G0/0 port using Copper Straight-Through.
 
 ✅ Step 2: Configure VLANs on the Switch
+
 Click on the Switch > CLI and enter:
 
 enable
@@ -87,6 +90,7 @@ interface range fa0/5 - 6
 switchport mode access
 switchport access vlan 30
 exit
+
 ✅ Step 4: Configure Trunk Port for Router
 Assume Switch Port Fa0/24 → Router G0/0:
 
@@ -94,6 +98,7 @@ interface fa0/24
 switchport trunk encapsulation dot1q
 switchport mode trunk
 exit
+
 ✅ Step 5: Configure Router Sub-Interfaces
 Click Router > CLI:
 
