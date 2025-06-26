@@ -4,6 +4,7 @@ Learning VLANs the practical way! Step-by-step guides and Packet Tracer projects
 VLAN stands for Virtual Local Area Network. It is a method of logically segmenting a physical network into multiple broadcast domains. This means you can group devices together—even if they're not physically connected to the same switch—so they behave like they're on the same local network. In simpler terms, VLANs allow you to divide a single switch into multiple smaller "virtual" switches, helping organize your network better.
 
 🎯 Why We Use VLAN?
+
 Segmentation: Isolates traffic for better performance.
 
 Security: Users in one VLAN cannot communicate with another without a router.
@@ -263,7 +264,6 @@ All devices can communicate across VLANs through the router's sub-interfaces.
 
 
 📸 Screenshots
-Include the following screenshots in this repo:
 
 VLAN Full Topology File including configuration
 
