@@ -279,6 +279,6 @@ Ping from VLAN 10 to VLAN 20
 ![image](https://github.com/user-attachments/assets/25ba86b7-d176-4142-9cbb-037bfd83ca66)
 
 
-💡 Conclusion
+💡 Conclusion:
 This project illustrates how VLANs can securely and efficiently segment a network and how inter-VLAN routing enables communication across VLANs. Using a single router with sub-interfaces, we simulate a small enterprise setup with HR, Finance, and IT departments.
 
