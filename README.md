@@ -122,7 +122,9 @@ exit
 interface g0/0
 no shutdown
 exit
+
 ✅ Step 6: Assign IP Addresses to PCs
+
 PC1 & PC2 (VLAN 10):
 
 IP: 192.168.10.2 / 192.168.10.3
@@ -145,7 +147,9 @@ Gateway: 192.168.30.1
 On Switch & Router:
 
 copy running-config startup-config
+
 ✅ Step 8: Testing
+
 From PC1 (HR) try to ping PC3 (Finance) → Should work due to inter-VLAN routing.
 
 Ping from PC5 (IT) to PC2 (HR) → Should work.
